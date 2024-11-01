@@ -1,0 +1,25 @@
+{
+    "name": "dhaniaffa/php-design-pattern",
+    "description": "Collections of design pattern in PHP",
+    "authors": [
+        {
+            "name": "dhaniaffa",
+            "email": "dhaniaffa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "3.x-dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    }
+}
